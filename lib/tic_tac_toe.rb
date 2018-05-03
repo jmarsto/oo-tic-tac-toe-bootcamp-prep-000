@@ -93,7 +93,7 @@ class TicTacToe
   end
   
   def draw?
-    won?.length !== 3 && full?
+    won?.length != 3 && full?
   end
   
   def over?
