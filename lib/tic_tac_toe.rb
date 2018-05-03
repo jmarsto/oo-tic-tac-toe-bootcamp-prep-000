@@ -82,8 +82,6 @@ class TicTacToe
         return win_combination
       elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
         return win_combination
-      else
-        FALSE
       end
     end
   end
@@ -95,7 +93,7 @@ class TicTacToe
   end
   
   def draw?
-    !won? && full?
+    won? !== Array && full?
   end
   
   def over?
