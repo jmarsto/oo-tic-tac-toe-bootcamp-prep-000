@@ -84,6 +84,9 @@ class TicTacToe
         return win_combination
       end
     end
+    if draw?
+      return FALSE
+    end
   end
   
   def full?
