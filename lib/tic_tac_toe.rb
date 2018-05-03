@@ -86,9 +86,6 @@ class TicTacToe
         FALSE
       end
     end
-    if draw?
-      return FALSE
-    end
   end
   
   def full?
